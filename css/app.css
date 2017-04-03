@@ -1,5 +1,11 @@
 /***********     General     **********/
-
+.wrap{
+  width:90%;
+  margin: auto;
+}
+ul, ol{
+  list-style-type:none;
+}
 /***********     Navigation     **********/
 .title-bar{
   z-index: 99999;
@@ -7,5 +13,32 @@
 /***********     Header     **********/
 
 /***********     Main    **********/
-
+.main{
+  padding: 3em 0;
+}
+.main .columns{
+  padding:0 3em;
+}
 /***********     Footer     **********/
+.footer{
+  text-align: center;
+  background-color: black;
+  color:white;
+  padding: 2em 0;
+}
+
+.footer h3{
+  color:red;
+}
+.footer img{
+  height: 3em;
+  width: 3em;
+}
+
+.footer a{
+  color:white;
+}
+
+a:hover{
+  color:red;
+}
