@@ -34,28 +34,28 @@ ul, ol{
 }
 /***********     Main    **********/
 .main{
-	padding: 0 0 2em 0;
+	padding: 2em 0 0 0;
 	background-color: rgb(230,230,230);
-	text-align: center;
-}
-.main .row{
-	margin:0 3em 0 3em;
-	padding: 0 3em;
-}
-.main .columns{
-  padding: 0;
-  margin:0;
+
 }
 
 .main .row{
-	padding: 2em 0;
+	margin:0 3em 0 3em;
+	max-width: 100%;
+}
+.main .columns{
+	padding:0 3em;
 }
 
 .main p{
 	font-size: 1.3em;
 }
 
-
+.services{
+	padding: 0 0 2em 0;
+	background-color: rgb(230,230,230);
+	text-align: center;
+}
 
 /*Hover*/
 
