@@ -13,6 +13,7 @@ text-align:
 /***********     Navigation     **********/
 .title-bar{
   z-index: 99999;
+  background-image: url("../images/carbonfiber.png");
 }
 .off-canvas{
 	background-color: black;
@@ -23,6 +24,9 @@ text-align:
 
 .off-canvas a{
 	color:white;
+  font-family: 'Abril Fatface', cursive;
+  font-weight: bold;
+  font-size: 1.3em;
 }
 
 .close-button{
@@ -58,7 +62,6 @@ font-family: 'Abril Fatface', cursive;
 }
 
 .services{
-	padding: 0 0 2em 0;
 	background-color: rgb(230,230,230);
 	text-align: center;
 }
@@ -109,6 +112,7 @@ font-family: 'Abril Fatface', cursive;
 	font-size: 3em;
 	display: inline-block;
 	position: absolute;
+  font-family: 'Palanquin', sans-serif;
 	top: 50%;
 	left: 50%;
 	-moz-transform: translate(-50%, -50%);
@@ -121,6 +125,7 @@ font-family: 'Abril Fatface', cursive;
 	font-size: 1em;
 	display: inline-block;
 	position: absolute;
+  font-family: 'Palanquin', sans-serif;
 	top: 50%;
 	left: 50%;
 	-moz-transform: translate(-50%, -50%);
@@ -137,12 +142,13 @@ font-family: 'Abril Fatface', cursive;
 .footer{
   text-align: center;
   background-color: black;
+  background-image: url("../images/carbonfiber.png");
   color:white;
   padding: 2em 0;
 }
 
 .footer h3{
-  color:red;
+  color:#ff1e1e;
 	font-weight: bold;
 }
 .footer img{
@@ -155,5 +161,5 @@ font-family: 'Abril Fatface', cursive;
 }
 
 a:hover{
-  color:red;
+  color:#ff1e1e;
 }
