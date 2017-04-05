@@ -17,6 +17,7 @@ text-align:
 }
 .off-canvas{
 	background-color: black;
+	background-image: url("../images/carbonfiber.png");
 	color:red;
 	text-align: center;
 	padding: 2em 0;
@@ -33,10 +34,23 @@ text-align:
 	color:white;
 	z-index: 999;
 }
+.logo{
+	background-color: black;
+	background-image: url("../images/carbonfiber.png");
+
+}
+.logoimg{
+	width:15%;
+	margin: auto;
+}
 /***********     Header     **********/
-.orbit img{
+.header img{
   max-height: 26em;
 }
+.headerwork img{
+    max-height: 37em;
+}
+
 /***********     Main    **********/
 .main{
 	padding: 2em 0 0 0;
