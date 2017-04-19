@@ -13,7 +13,8 @@ text-align:
 /***********     Navigation     **********/
 .title-bar{
   z-index: 99999;
-  background-image: url("../images/carbonfiber.png");
+	background-image: url("../images/carbonfiber.png");
+
 }
 .title-bar-title{
 	font-family: 'Abril Fatface', cursive;
